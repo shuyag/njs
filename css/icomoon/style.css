@@ -793,6 +793,7 @@
 }
 .icon-check2:before {
 	content: "\e116";
+	color: #16abdd;
 }
 .icon-cross2:before {
 	content: "\e117";

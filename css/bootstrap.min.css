@@ -2323,7 +2323,8 @@ caption {
     text-align: left
 }
 th {
-    text-align: left
+    text-align: center
+    color: #16abdd;
 }
 .table {
     width: 100%;
