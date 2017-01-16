@@ -5286,7 +5286,9 @@ color:#8dc73f;
 }
 
 .client{
-	background: #B4E0F2;
+	background-image: url("images/go.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 
@@ -5295,9 +5297,29 @@ color:#8dc73f;
 	font-size: 24px;
 	text-align: center;
 	font-weight: 400;
-	color: #000;
+	color: #fff;
 }
 
+.client h2 {
+	padding: 2% 0% 10% 0%;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	font-weight: 400;
+	text-transform: none;
+	color: #fff;
+}
+
+.client p {
+	padding: 0% 10% 0% 10%;
+	text-align: center;
+	text-transform: none;
+	color: #dedede;
+	margin-bottom: 17px;
+    font-size: 13px;
+    line-height: 23px;
+
+}
 
 .client-logo h1 {
 	padding: 10% 0% 5% 0%;
@@ -5308,7 +5330,7 @@ color:#8dc73f;
 
 
 .client-logo a {
-	opacity:0.4;
+	opacity:1;
 	display:table;
 	margin:0 auto;
 }
@@ -5330,7 +5352,7 @@ color:#8dc73f;
 	color: #fff;
 	border-radius: 50%;
 	font-size: 0px;
-	opacity: 0;
+	opacity: 1;
 	position: absolute;
 	left: -50px;
 		transition:.4s;
@@ -5363,7 +5385,7 @@ color:#8dc73f;
 	color: #fff;
 	border-radius: 50%;
 	font-size: 0px;
-	opacity: 0;
+	opacity: 1;
 	position: absolute;
 	right: -50px;
 		transition:.4s;
@@ -5388,13 +5410,13 @@ color:#8dc73f;
 }
 
 #carousel_five:hover .owl-prev  {
-	opacity:0.3 !important;
+	opacity:1 !important;
 		left:0px !important;
 		transition:.4s !important;
 }
 
 #carousel_five:hover .owl-next  {
-	opacity:0.3 !important;
+	opacity:1 !important;
 		right:0px !important;
 		transition:.4s !important;
 }
